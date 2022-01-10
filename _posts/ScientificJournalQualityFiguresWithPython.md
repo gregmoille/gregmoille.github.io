@@ -1,1 +1,0 @@
-# Scientific Journal Quality Figures with Python

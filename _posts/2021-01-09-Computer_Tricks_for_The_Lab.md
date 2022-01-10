@@ -1,5 +1,14 @@
-# 10 Tips for a Setting up a Research Lab 
+---
+title: '10 Tips for a Setting up a Research Lab '
+date: 2022-01-09
+permalink: /posts/2022/01/10tips
+tags:
+  - Computer
+  - Setting Up
+---
 
+
+# 10 Tips for a Setting up a Research Lab 
 
 ## 1 - Invest in a *Good* Physical Data Storage 
 

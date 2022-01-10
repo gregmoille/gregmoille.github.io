@@ -31,8 +31,8 @@ import pandas as pd
 # Pandas makes this easy with the read_csv function. We are using a TSV, so we specify the separator as a tab, or `\t`.
 # 
 # I found it important to put this data in a tab-separated values format, because there are a lot of commas in this kind of data and comma-separated values can get messed up. However, you can modify the import statement, as pandas also has read_excel(), read_json(), and others.
-
 # In[3]:
+
 
 publications = pd.read_csv("publications.tsv", sep="\t", header=0)
 publications

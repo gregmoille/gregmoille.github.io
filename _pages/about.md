@@ -1,9 +1,12 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+
+Welcome to my personal website. I mostly use it to write some informative posts, which cover anythign I can do in the lab. This goes from computer setup, network setup, simulation tricks and experimental setup. 

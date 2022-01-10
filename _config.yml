@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Your Sidebar Name"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Assisttant Research Scientiist - Photonics and Frequency combs"
   location         : "Washington, D.C."
-  employer         : "University of Maryland</br>National Institute of Standards and Technology"
+  employer         : "University of Maryland/NIST"
   googlescholar    : "https://scholar.google.fr/citations?user=6fBdsmYAAAAJ&hl=fr"
   email            : "gmoille@umd.edu"
-  researchgate     :  "https://www.researchgate.net/profile/Gregory-Moille"
-  uri              :
+  researchgate     : "https://www.researchgate.net/profile/Gregory-Moille"
+  uri              :  "https://groups.jqi.umd.edu/srinivasan/users/gregory-moille"
   bitbucket        :
   codepen          :
   dribbble         :

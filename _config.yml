@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Grégory Moille / Site Title"
+title                    : "Nanophotonics @ JQI"
 title_separator          : "-"
 name                     : &name "Grégory Moille"
 description              : &description "personal description"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Your Sidebar Name"
   avatar           : "profile.png"
-  bio              : "Assisttant Research Scientiist - Photonics and Frequency combs"
+  bio              : "Assistant Research Scientist - Photonics and Frequency combs"
   location         : "Washington, D.C."
   employer         : "University of Maryland/NIST"
   googlescholar    : "https://scholar.google.fr/citations?user=6fBdsmYAAAAJ&hl=fr"

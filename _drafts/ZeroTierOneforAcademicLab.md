@@ -1,1 +1,0 @@
-# ZeroTier One for Academic Lab

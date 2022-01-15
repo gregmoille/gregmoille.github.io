@@ -9,6 +9,10 @@
 @import url(//fonts.googleapis.com/css?family=Dongle);
 @import url(//fonts.googleapis.com/css?family=Roboto+Condensed);
 @import url(//fonts.googleapis.com/css?family=Fondamento);
+@import url(//fonts.googleapis.com/css?family=PT+Sans);
+@import url(//fonts.googleapis.com/css?family=Poppins);
+
+
 $doc-font-size              : 16;
 
 /* paragraph indention */
@@ -31,14 +35,14 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : "Source Sans Pro";
-$header-font-family         : "Dongle", "Fira Sans";
+$global-font-family         : "PT Serif";
+$header-font-family         : "Poppins";
 $caption-font-family        : $serif;
-
+ 
 /* type scale */
 $type-size-1                : 8.441em;  // ~39.056px
 $type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 3.563em;  // ~25.008px
+$type-size-3                : 1.563em;  // ~25.008px
 $type-size-4                : 1.25em;   // ~20px
 $type-size-5                : 1em;      // ~16px
 $type-size-6                : 0.75em;   // ~12px

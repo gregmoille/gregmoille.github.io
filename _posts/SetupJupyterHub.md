@@ -1,6 +1,6 @@
 ---
 title: 'How To Setup a JupyterHub'
-date: 2022-01-15
+date: 2022-01-14
 permalink: /posts/2022/01/jupyterhubhow
 tags:
   - Computer
@@ -56,6 +56,8 @@ done
 
 
 # Installing Jupyter, JupyterLab, JupyterHub
+
+Let's get to the core of this tutorial: installing the server! 
 
 
 

@@ -5,13 +5,13 @@
 /*
    Typography
    ========================================================================== */
-@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url(//fonts.googleapis.com/css?family=Dongle);
 @import url(//fonts.googleapis.com/css?family=Roboto+Condensed);
 @import url(//fonts.googleapis.com/css?family=Fondamento);
 @import url(//fonts.googleapis.com/css?family=PT+Serif);
 @import url(//fonts.googleapis.com/css?family=PT+Sans);
 @import url(//fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,900);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,500,600,700,900);
 
 
 
@@ -38,7 +38,7 @@ $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
 // $global-font-family         : "PT Serif";
-$global-font-family         : "PT Sans";
+$global-font-family         : "Source Sans Pro";
 $header-font-family         : "Poppins";
 $caption-font-family        : $serif;
  

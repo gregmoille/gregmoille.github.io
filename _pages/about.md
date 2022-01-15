@@ -16,7 +16,8 @@ Welcome to my personal website. I mostly use it to write some informative posts,
 # Lastest tutorial 
 
 {% for post in site.posts limit 2 %}
-  <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-      {{ post.content | strip_html | truncatewords:150}}<br>
-          <a href="{{ post.url }}">Read more...</a><br><br>
+  <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+  </li>
 {% endfor %}

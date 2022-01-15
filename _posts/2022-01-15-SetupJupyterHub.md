@@ -36,7 +36,7 @@ Another trick found while seting up our own jupyterhub server is - in adition of
 
 Therefore, before starting setting up our server, let's create our users and their home directory. For linux users, You can ue the script below which automatically creates all the users:
 
-**`create_users.sh`**
+`create_users.sh`
 ```bash
 #! /bin/bash
 

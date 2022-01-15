@@ -19,6 +19,8 @@ Welcome to my personal website. I mostly use it to write some informative posts,
   <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       
-      >{{ post.excerpt }}
+      <blockquote>
+        {{ post.excerpt }}
+      </blockquote>
   </li>
 {% endfor %}

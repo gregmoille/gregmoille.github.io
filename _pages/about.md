@@ -15,7 +15,7 @@ Welcome to my personal website. I mostly use it to write some informative posts,
 
 # Lastest tutorial 
 
-{% for post in site.posts limit 2 %}
+{% for post in site.posts limit:2 %}
   <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       

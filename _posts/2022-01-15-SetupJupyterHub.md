@@ -34,7 +34,7 @@ To this extend, using google oauth2 authentification is a convenient and secure 
 Another trick found while seting up our own jupyterhub server is - in adition of the google oauth2 - only allow user that exist on the  machine. If the user doesn't exist yet the google identification go through, this would yield an error blocking the access to the server. It is not super pretty, but this work. 
 
 
-Therefore, before starting setting up our server, let's create our users and their home directory. For linux users, You can ue the script below which automatically creates all the users:
+Therefore, before starting setting up our server, let's create our users and their home directory. For linux users, You can ue the script `create_users.sh` below which automatically creates all the users:
 
 
 ```bash

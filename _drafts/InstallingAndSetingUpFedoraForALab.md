@@ -1,3 +1,14 @@
+---
+title: 'How To Setup a JupyterHub'
+date: 2022-01-14
+permalink: /posts/2022/01/jupyterhubhow
+tags:
+  - Computer
+  - Setting Up
+---
+
+
+
 # Installing and Seting up Fedora for a Lab
 
 
@@ -5,7 +16,14 @@
 
 ## Setting up the Live Instalation 
 
-## Post Installation
+# Post Installation
+
+## creating all the users for jupyterhub
+
+## change hostname
+
+hostnamectl set-hostname
+
 
 ## Useful trick for the Lab 
 
@@ -16,3 +34,11 @@
 ### What about Remote Control? 
 
 ### 
+
+# Java Installation
+
+
+https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
+
+
+alternatives --config java

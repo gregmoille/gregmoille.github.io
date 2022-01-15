@@ -100,7 +100,7 @@ blockquote {
   padding-left: 1em;
   padding-right: 1em;
   font-style: italic;
-  border-left: 0.25em solid $primary-color;
+  border-left: 0.1em solid $primary-color;
 
   cite {
     font-style: italic;
@@ -144,7 +144,7 @@ figcaption > code,
 td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  font-size: $type-size-6;
+  // font-size: $type-size-6;
   background: $code-background-color;
   border: 1px solid $lighter-gray;
   border-radius: $border-radius;

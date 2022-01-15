@@ -1,6 +1,6 @@
 ---
 title: 'How To Setup a JupyterHub'
-date: 2022-01-14
+date: 2022-01-15
 permalink: /posts/2022/01/jupyterhubhow
 tags:
   - Computer

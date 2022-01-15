@@ -37,17 +37,17 @@ Another trick found while seting up our own jupyterhub server is - in adition of
 Therefore, before starting setting up our server, let's create our users and their home directory. For linux users, You can ue the script below which automatically creates all the users:
 
 
-{% highlight bash show_filename=create_users.sh %}
+```bash
 #! /bin/bash
 
-for uu in nphoton gmoille perezed kartiks tsrahman khoang98 jstone12
+for uu in <list of users>
 do
   adduser -m ${uu}
   echo "${uu}:$1" | chpasswd
   mkdir /home/${uu}/AmunMount
   chown ${uu} /home/${uu}/AmunMount
 done
-{% endhighlight %}
+```
 
  Make the script executable and run `sudo ./create_users.sh <passwrod>`, where you replace _\<password\>_ with the password you want for the users. This password won't be used further 
 

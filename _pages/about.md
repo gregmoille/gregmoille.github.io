@@ -18,6 +18,7 @@ Welcome to my personal website. I mostly use it to write some informative posts,
 {% for post in site.posts limit 2 %}
   <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      
       > <p>{{ post.excerpt }}</p>
   </li>
 {% endfor %}

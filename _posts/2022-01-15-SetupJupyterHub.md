@@ -129,7 +129,7 @@ c.ConfigurableHTTPProxy.api_url = 'http://localhost:5432'
 c.Authenticator.delete_invalid_users = True
 ```
 
-We can then import the `GoogleOAuthenticator` and start to set it up. Here we precise  _<domain_name>_ being the domain after the _@_. For instance, my email being gmoille@umd.edu, here I would replace it with `umd.edu`
+We can then import the `GoogleOAuthenticator` and start to set it up. Here we precise  _\<domain_name\>_ being the domain after the *@*. For instance, my email being gmoille@umd.edu, here I would replace it with `umd.edu`
 ```python
 c.JupyterHub.authenticator_class = GoogleOAuthenticator
 c.GoogleOAuthenticator.hosted_domain = ['<domain_name>']
@@ -149,19 +149,25 @@ c.GoogleOAuthenticator.client_id = 'xxxxxxxxxxxxx'
 c.GoogleOAuthenticator.client_secret = 'xxxxxxxxxxxxx'
 ```
 
-Let's say you actually want anybody within your _<domain_name>_ to access it, even if you didn't create their user, you can automatically create new local user based on the google oauth using (found from[^3]):
+Let's say you actually want anybody within your _\<domain_name\>_ to access it, even if you didn't create their user, you can automatically create new local user based on the google oauth using (found from[^3]):
 ```python
 c.Authenticator.add_user_cmd = ['adduser', '-q', '--gecos', '""', '--disabled-password', '--force-badname']
 ```
 
 
-
-
-
-
 # Setting Up Google API
 
 # Creating a daemon for JupyterHub
+
+Instead of running jupyterhub manually, it is convenient to create a systemd daemon that can be launched at boot and stop/restart using `systemctl`
+
+To do so, create the service file 
+```bash
+sudo touch /etc/system/systemd/jupyterhub_server.service
+```
+
+
+
 
 # Serving JupyterHub through a website with nginx
 
@@ -193,4 +199,4 @@ c.JupyterHub.default_url = f'user/{user}/vscode'
 
 [^2]: [jupyterhub config file reference](https://jupyterhub.readthedocs.io/en/stable/reference/index.html)
 
-[^3] [python for undergraduate engineers](https://pythonforundergradengineers.com/add-google-oauth-and-system-service-to-jupyterhub.html)
+[^3]: [python for undergraduate engineers](https://pythonforundergradengineers.com/add-google-oauth-and-system-service-to-jupyterhub.html)

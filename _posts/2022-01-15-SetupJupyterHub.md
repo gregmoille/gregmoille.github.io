@@ -157,6 +157,15 @@ c.Authenticator.add_user_cmd = ['adduser', '-q', '--gecos', '""', '--disabled-pa
 
 # Setting Up Google API
 
+Because JupyterLab spawns a not only notebook but the possibility to launch terminals, it is **very important to set the security of your server correctly**. We already setup the jupyterhub server to use google authentification but we need to setup the handshake and the calback correctly to be accepted on the google side.
+
+To do so, log into goole with your \<domain_name\> account (i.e. for me @umd.edu) and go to the [Google API console]
+
+
+
+
+
+
 # Creating a daemon for JupyterHub
 
 Instead of running jupyterhub manually, it is convenient to create a systemd daemon that can be launched at boot and stop/restart using `systemctl`
@@ -165,9 +174,6 @@ To do so, create the service file
 ```bash
 sudo touch /etc/system/systemd/jupyterhub_server.service
 ```
-
-
-
 
 # Serving JupyterHub through a website with nginx
 
